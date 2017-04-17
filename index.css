@@ -1,0 +1,40 @@
+.carousel {
+    width: 700px;
+    height: 500px;
+    margin: 30px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.item {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    background-color: lightpink;
+    background: linear-gradient(90deg, rgba(255, 182, 193, 1), rgba(255, 182, 193, 0.26));
+    transition: left 1s ease;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    border: none;
+}
+
+.prev {
+    left: 10px;
+    background-color:rgba(255, 182, 193, 1.0);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.next {
+    right: 10px;
+    background-color: rgba(255, 182, 193, 0);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
